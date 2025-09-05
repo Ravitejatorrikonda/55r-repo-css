@@ -1,0 +1,36 @@
+/* body{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px solid ;
+    
+   
+}
+/* p{
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    transition: all 3s ease;
+}
+p:hover{
+    opacity: 1;
+} */
+img{
+    width: 100%;
+    display: none;
+}
+.btn1:hover~.img1{
+    display: block;
+}
+.btn2:hover~.img2{
+    display: block;
+}
+.btn3:hover~.img3{
+    display: block;
+}
